@@ -1,2 +1,11 @@
 # Ignore the website directory
 /website/*
+
+/video/*
+# Ignore the video directory
+
+/documentation/*
+# Ignore the documentation directory
+
+/images/screenshots/*
+# Ignore the screenshots directory
