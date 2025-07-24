@@ -1,0 +1,2 @@
+This is a test file for AWS file deduplication demo.
+If you read this, your upload is working!
