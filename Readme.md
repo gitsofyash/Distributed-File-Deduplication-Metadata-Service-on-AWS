@@ -61,7 +61,7 @@ Create a Lambda for each API endpoint.
 - **Create an HTTP API** in AWS API Gateway.
 - **Add routes**:
   - `POST /upload`
-  - `GET /file/{id}`
+  - `GET /metadata/{id}`
   - `GET /download/{id}`
   - `GET /admin/stats`
   - `GET /admin/hashes`
@@ -81,7 +81,7 @@ Create a Lambda for each API endpoint.
 | Endpoint           | Method | Description                                    |
 |--------------------|--------|------------------------------------------------|
 | `/upload`          | POST   | Upload a file. If duplicate, returns 409.      |
-| `/file/{id}`       | GET    | Get metadata for a file.                       |
+| `/metadata/{id}`   | GET    | Get metadata for a file.                       |
 | `/download/{id}`   | GET    | Download a file (S3 pre-signed URL).           |
 | `/admin/stats`     | GET    | Get system stats (files, duplicates, savings).  |
 | `/admin/hashes`    | GET    | List all file hashes and metadata (paginated).  |
